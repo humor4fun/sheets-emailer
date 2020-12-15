@@ -16,29 +16,8 @@ FedEx: Use this formula to create links off of the tracknig ID alone
 =concat("https://www.fedex.com/apps/fedextrack/?tracknumbers=",$C2)
 ```
 
-# Recipients.csv
-```
-Name,Email,Tracking ID,Tracking URL,,,,"concat(""https://www.fedex.com/apps/fedextrack/?tracknumbers="",$C2)"
-```
+# Recipients Sheet
+![Screenshot](/examples/Sheet-Recipients.png)
 
-# Templates.csv
-```
-Subject,Email
-Our Team has sent you a package,"Dear <name>,
-
-
-We have created a shipping label to send you a package! Your tracking number is: <trackingID>
-
-
-You can track the package directly using this link: <trackingLink>
-
-
-We hope the package gets to you soon! 
-
-
-Please contact the carrier if you have questions about where the package is, once it has left our facilities we are not able to do anything else beyond check the tracking link above.
-
-
-Cheers,
-Our Team"
-```
+# Template Sheet
+![Screenshot](/examples/Sheet-Template.png)
